@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('/img/2023-10-09_12.03.41.png') no-repeat;
+  backdrop-filter: blur(8px);
+}
+button{cursor: pointer;}
+.section{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 20px;
+}
+input[type="range"]{
+  width: 100%;
+}
+.btn {
+  background: transparent;
+  padding: 8px 16px;
+  width: 100%;
+}
+.generate {
+}
+.output {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+.copy {
+}
+.block input[type="checkbox"]{
+  margin-left: 8px;
+}
